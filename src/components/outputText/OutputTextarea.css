@@ -1,0 +1,42 @@
+.editor {
+    display: inline-flex;
+    font-family: monospace;
+    line-height: 21px;
+    background: #373a50;
+    padding: 20px 10px;
+    height: 80%;
+    width: 100%;
+    padding: 0;
+}
+
+.output-textarea {
+    line-height: 21px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 0;
+    background: #282a3a;
+    color: #FFF;
+    min-width: 500px;
+    outline: none;
+    resize: none;
+    color: tan;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.output-line-numbers {
+    margin: 0;
+    padding: 10px;
+    width: 20px;
+    text-align: right;
+}
+
+.output-line-numbers span {
+    counter-increment: linenumber;
+}
+
+.output-line-numbers span::before {
+    content: counter(linenumber);
+    display: block;
+    color: #5d7691;
+}

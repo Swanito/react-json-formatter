@@ -1,0 +1,13 @@
+button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0;
+    border: 0;
+    background-color: rgb(255, 196, 93);
+    color: #2d2d30;
+    margin: 5px 10px;
+}
+
+button:hover {
+    background-color: rgb(253, 189, 77);
+}
